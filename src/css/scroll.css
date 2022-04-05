@@ -1,0 +1,25 @@
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    z-index: 99;
+    font-size: 27px;
+    border: none;
+    outline: none;
+    background-color: #363062;
+    color: #D8B9C3;
+    cursor: pointer;
+    padding: 1px;
+    border-radius: 50%;
+}
+
+#myBtn:hover {
+    background-color: #D8B9C3;
+    color: #363062;
+}
+
+.arrow-up{
+    margin-top: -10px;
+}
