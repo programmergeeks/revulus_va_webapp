@@ -1,6 +1,65 @@
 nav{
     font-family: 'Poppins', sans-serif;
-    background: #363062;
-    padding: 10px;
+    background: #000;
+    box-shadow: 0px 13px 24px 0px rgba(0,0,0,0.08);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin: 0;
+}
+
+nav .navbar-collapse.collapse{
+    display: block;
+}
+
+@media (max-width: 991px){
+    nav .navbar-collapse.collapse{
+        overflow: hidden;
+        text-align: center;
+    }
+    nav .navbar-collapse.active{
+        height: 27vh !important;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav .nav-item:hover{
+        background-color: #EBBC4E;
+        color: black;
+        cursor: pointer;
+        padding:.1rem .1rem;
+    }
+    
+}
+nav .navbar-collapse{
+    transition: .6s all ease-in-out;
+    height: 0 !important;
+}
+
+nav .navbar-brand{
+    text-decoration: none;
+    color: #EBBC4E;
+    cursor: pointer;
+}
+
+nav .navbar-toggler{
+    color: #EBBC4E;
+
+}
+
+
+
+.nav-item .nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding: .5rem .5rem !important;
+}
+
+.nav-item:hover{
+    background-color: #EBBC4E;
+    color: black;
+    cursor: pointer;
 }
 
