@@ -46,8 +46,6 @@ nav .navbar-toggler{
 
 }
 
-
-
 .nav-item .nav-link{
     margin-left: 10px;
     margin-right: 10px;
@@ -61,5 +59,6 @@ nav .navbar-toggler{
     background-color: #EBBC4E;
     color: black;
     cursor: pointer;
+    border-radius: 10px;
 }
 
