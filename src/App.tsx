@@ -4,11 +4,10 @@ import MiddleSection from './pages/MiddleSection';
 
 function App() {
   return (
-    <body>
+    <>
       <Navbar />
       <MiddleSection />
-    </body>
-
+    </>  
   );
 }
 
