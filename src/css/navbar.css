@@ -1,23 +1,35 @@
 nav{
     font-family: 'Poppins', sans-serif;
     background: #000;
-    box-shadow: 0px 13px 24px 0px rgba(0,0,0,0.08);
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.08) !important;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
     margin: 0;
 }
 
+nav .navbar-nav{
+    margin-left: auto;
+    align-items: center;
+}
+
 nav .navbar-collapse.collapse{
-    display: block;
+    display: flex;
 }
 
 @media (max-width: 991px){
     nav .navbar-collapse.collapse{
         overflow: hidden;
         text-align: center;
+
+
+    }
+
+    nav .navbar-nav{
+        margin-left: auto;
+        margin-right: auto;
     }
     nav .navbar-collapse.active{
-        height: 27vh !important;
+        height: 47vh !important;
         text-align: center;
         margin-top: 10px;
     }
@@ -26,6 +38,7 @@ nav .navbar-collapse.collapse{
         background-color: #EBBC4E;
         color: black;
         cursor: pointer;
+        width: 500px;
         padding:.1rem .1rem;
     }
     
