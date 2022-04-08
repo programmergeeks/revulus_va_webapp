@@ -20,7 +20,7 @@ function Navbar() {
             <nav className="navbar navbar-expand-lg fixed-top">
                 <div className="container-fluid">
                     <a className="navbar-brand" style={{ fontSize: 35, letterSpacing: "7px" }} onClick={scrollUp}>
-                        <img src={revulus} alt=""/>
+                        <img src={revulus} alt="" />
                     </a>
                     <button className="navbar-toggler"
                         onClick={() => setShow(!show)} >
@@ -40,9 +40,9 @@ function Navbar() {
                             <li className='nav-item'>
                                 <Link className='nav-link' duration={100} to="contact_us" spy={true} smooth={true}>Contact</Link>
                             </li>
-                            <SigninWithModal/>
+                            <SigninWithModal />
                             <li className='nav-item'>
-                                <Link className='nav-link' style={{ fontSize: 20 }} duration={100} to="/" spy={true} smooth={true}><RI.RiBookMarkFill /></Link>
+                                <Link className='nav-link' style={{ fontSize: 20 }} duration={100} to="book-demo" spy={true} smooth={true}><RI.RiBookMarkFill /></Link>
                             </li>
                         </ul>
 

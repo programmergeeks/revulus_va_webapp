@@ -8,16 +8,22 @@
     font-size: 27px;
     border: none;
     outline: none;
-    background-color: #363062;
-    color: #D8B9C3;
+    background-color: #000;
+    color: #FFC56E;
     cursor: pointer;
     padding: 1px;
     border-radius: 50%;
+    box-shadow: 0 9px #999
 }
 
 #myBtn:hover {
-    background-color: #D8B9C3;
-    color: #363062;
+    background-color: #FFC56E;
+    color: #000;
+}
+
+#myBtn:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 .arrow-up{

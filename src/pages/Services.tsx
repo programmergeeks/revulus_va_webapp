@@ -1,6 +1,8 @@
 
 export default function Services() {
   return (
-    <h1>Team</h1>
+    <div id='services'>
+      <h1>Our Services</h1>
+    </div>
   )
 }
