@@ -17,7 +17,7 @@ function Navbar() {
     };
     return (
         <>
-            <nav className="navbar navbar-expand-lg fixed-top">
+            <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <a className="navbar-brand" style={{ fontSize: 35, letterSpacing: "7px" }} onClick={scrollUp}>
                         <img src={revulus} alt="" />
